@@ -19,7 +19,7 @@ void transpose(term a[],term t[])
 		for(i=1;i<=numterms;i++)
 			rt[a[i].c]++;
 		sp[0]=1;
-		for(i=1;i<numcols;i++)
+		for(i=1;i<=numcols;i++)
 			sp[i]=sp[i-1]+rt[i-1];
 		for(i=1;i<=numterms;i++)
 		{
